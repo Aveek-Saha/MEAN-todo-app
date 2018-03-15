@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080
 
 var app = express();
 
-mongoose.connect('mongodb://Aveek0:aveekrocks123@ds035816.mlab.com:35816/todo');
+mongoose.connect('<Insert your mlabs/mongodb connextion string here>');
 
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: 'true'}));
