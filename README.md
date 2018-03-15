@@ -3,7 +3,7 @@ A checklist style todo app made using the MEAN stack (MongoDb Express AngularJs 
 
 
 # How to use
-Clone this repository and in the todo/server.js file, replace this text   
+Clone this repository and in the `todo/server.js` file, replace this text   
 ```<Insert your mlabs/mongodb connextion string here>```<br>
 in this line   
 ```mongoose.connect('<Insert your mlabs/mongodb connextion string here>');```<br> 
