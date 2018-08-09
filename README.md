@@ -7,7 +7,7 @@ Clone this repository and in the `todo/server.js` file, replace this text
 ```<Insert your mlabs/mongodb connextion string here>```<br>
 in this line   
 ```mongoose.connect('<Insert your mlabs/mongodb connextion string here>');```<br> 
-with your mongodb connection string.<br><br>
+with your Mlabs connection string.<br>
 
 Then go to the `todo/` directory in you command line and run `npm install` to install all the packages.<br>
 After installing run `node server.js` an open `http://localhost:8080/` on your browser.
